@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap");
+:root {
+  --primary-color: #8c00ff;
+  --primary-dark: #111111;
+  --secondary-dark: #181818;
+  --white-color: #fff;
+  --selection: rgb(158, 0, 231);
+  --scroll-bar-bg: rgb(121, 0, 177);
+}
+::selection {
+  background-color: var(--selection);
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: var(--secondary-dark) !important;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color) !important;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scroll-bar-bg) !important;
+}
+a {
+  color: var(--primary-color) !important;
+}
+div[class^="icon-"] {
+  color: var(--white-color) !important;
+}
+/* DM SECTION */
+div[data-list-id^="private-channels-"] {
+  background-color: var(--primary-dark) !important;
+}
+div[class^="searchBar-"] {
+  background-color: var(--primary-dark) !important;
+}
+div[class^="avatar-"] {
+  color: var(--white-color);
+}
+div[class^="content-"] {
+  color: var(--white-color);
+}
+.channel-1Shao0[aria-posinset="3"] {
+  display: none;
+}
+.channel-1Shao0[aria-posinset="2"] {
+  display: none;
+}
+/*USER AREA PANEL*/
+.container-YkUktl {
+  background-color: var(--primary-dark) !important;
+}
+.container-1zzFcN {
+  background-color: var(--primary-dark) !important;
+  color: white;
+}
+.button-1EGGcP.buttonColor-3bP3fX,
+.button-1EGGcP .buttonColor-3bP3fX {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+div[class*="activityPanel-"] {
+  background-color: var(--primary-dark) !important;
+  border-bottom: 2px solid var(--primary-color) !important;
+}
+div[class^="listeningAlong-"] {
+  background-color: var(--primary-color) !important;
+  border-bottom: 2px solid var(--primary-color) !important;
+}
+/*GUILDS*/
+ul[data-list-id="guildsnav"] {
+  background-color: var(--primary-dark) !important;
+}
+div[class^="circleIconButton-"] {
+  color: var(--primary-color);
+  background-color: var(--secondary-dark);
+}
+.expandedFolderBackground-1kSAf6 {
+  background-color: var(--secondary-dark) !important;
+}
+/*HEADER TAB*/
+.container-ZMc96U {
+  --bg-overlay-2: var(--primary-dark) !important;
+  --__header-bar-background: var(var(--secondary-dark)) !important;
+}
+.nicknames-10Sg6e .overflow-1wOqNV::before {
+  display: none !important;
+}
+.children-3xh0VB::after {
+  display: none !important;
+}
+/*FRIENDS TAB*/
+.addFriend-emTWY1 {
+  background-color: var(--primary-color) !important;
+  color: white;
+}
+/*peopleColumn*/
+div[class^="peopleColumn-"] {
+  background-color: var(--primary-dark);
+}
+div[class^="peopleListItem-"] {
+  background-color: var(--secondary-dark);
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  transition: 0.2s;
+}
+.actionButton-3-B2x- {
+  background-color: var(--primary-color) !important;
+  color: var(--white-color) !important;
+  border: 5px;
+}
+/* ACTIVITY STATUS*/
+.scroller-hE2gWq {
+  background-color: var(--primary-dark);
+}
+.scroller-hE2gWq div[class^="itemCard-"] {
+  background-color: var(--secondary-dark);
+  color: white;
+  border: none;
+  transition: 0.2s;
+  text-align: center;
+}
+.scroller-hE2gWq div[class^="itemCard-"] .section-3G9aLW {
+  background-color: var(--primary-dark);
+}
+/*CHAT CONTENT*/
+main[class^="chatContent-"] {
+  background-color: var(--primary-dark) !important;
+}
+div[class*="scrollableContainer-15eg7h"] {
+  --bg-overlay-3: var(--secondary-dark) !important;
+  --channeltextarea-background: var(var(--secondary-dark)) !important;
+}
+.form-3gdLxP::before {
+  display: none;
+}
+/*CHANNELS*/
+#channels {
+  background-color: var(--primary-dark);
+}
+div[class*="wrapper-NhbLHG"] {
+  background-color: var(--secondary-dark);
+}
+header[class*="header-3OsQeK"] {
+  background-color: var(--primary-dark);
+}
+.members-3WRCEx {
+  background-color: var(--primary-dark) !important;
+}
+.container-2o3qEW {
+  background-color: var(--primary-dark) !important;
+}
+.member-48YF_l,
+.members-3WRCEx {
+  background-color: var(--secondary-dark) !important;
+}
+/*BOT TAGS*/
+.px-MnE_OR.botTag-7aX5WZ {
+  background-color: var(--primary-color) !important;
+}
